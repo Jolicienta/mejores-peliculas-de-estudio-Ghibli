@@ -1,0 +1,97 @@
+/*font-family: 'Amatic SC', cursive;
+font-family: 'Comfortaa', cursive;*/
+h4 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 28px;
+  color: gray;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 3px;
+
+}
+
+hr {
+  border: 2px solid silver;
+  width: 400px;
+  position: absolute;
+  margin-left: 40px;
+}
+
+.peliculas {
+  background-image: url(./img/Studio_Ghibli_logo.jpg);
+  background-size: 80%;
+  width: 1020px;
+  height: 90%;
+  position: fixed;
+  margin-left: 450px;
+  margin-top: -20px;
+  z-index: -1000;
+  opacity: 0.5;
+}
+
+.nausicaa, .totoro, .luciernagas, .mononoke, .chihiro, .castillo {
+  background-size: 300%;
+  margin-right: 30px;
+  width: 250px;
+  height: 250px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  text-align: right;
+}
+
+p {
+  background-color: black;
+  display: inline-block;
+  margin-top: 210px;
+  padding: 5px;
+}
+
+p > a {
+  text-decoration: none;
+  color: white;
+}
+
+.nausicaa, .totoro, .luciernagas {
+  margin-top: 40px;
+  float: left;
+}
+
+.nausicaa {
+  background-image: url(./img/peliculas.jpg);
+  background-position: 0px 0px;
+  margin-left: 100px;
+}
+
+.totoro {
+  background-image: url(./img/peliculas.jpg);
+  background-position: -500px 0px;
+}
+
+.luciernagas {
+  background-image: url(./img/peliculas.jpg);
+  background-position: -250px 0px;
+}
+
+.mononoke, .chihiro, .castillo {
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.mononoke {
+  background-image: url(./img/peliculas.jpg);
+  background-position: -0px -252px;
+  margin-left: 100px;
+}
+
+.chihiro {
+  background-image: url(./img/peliculas.jpg);
+  background-position: -500px -252px;
+}
+
+.castillo {
+  background-image: url(./img/peliculas.jpg);
+  background-position: -250px -252px;
+}
